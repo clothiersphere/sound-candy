@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Stream from './components/Stream';
 // import App from './App';
 // import './index.css';
 
@@ -13,7 +14,7 @@ const tracks = [
 ];
 
 ReactDOM.render(
-  <div>{title}</div>,
+ <Stream tracks={tracks} />,
   document.getElementById('app')
 );
 
