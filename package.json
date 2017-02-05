@@ -42,6 +42,7 @@
     "start": "webpack-dev-server --progress --colors --hot --config ./webpack.config.js",
     "build": "react-scripts build",
     "test": "mocha --compilers js:babel-core/register --require ./test/setup.js 'src/**/*spec.js'",
+    "test:watch": "npm run test -- --watch"
     "eject": "react-scripts eject"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
